@@ -1,0 +1,22 @@
+# ========================
+# Normalización de finales de línea
+# ========================
+
+# Todos los archivos de texto se normalizan a LF
+* text=auto eol=lf
+
+# ========================
+# Archivos de código (Linux/C)
+# ========================
+*.c   text eol=lf
+*.h   text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+
+# Makefiles (LF en Linux)
+Makefile text eol=lf
+
+# ========================
+# Scripts de Linux
+# ========================
+*.sh text eol=lf
